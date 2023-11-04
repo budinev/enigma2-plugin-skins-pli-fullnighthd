@@ -46,15 +46,7 @@
 		<eLabel position="0,1022" size="1920,58" backgroundColor="basictemplatecolor"/>
 		<ePixmap pixmap="border/smallshadowline.png" position="0,1020" size="1920,3"/>
 	</screen>
-    <screen name="PigTemplate">
-	<panel name="SelectionTemplate"/>
-  <ePixmap pixmap="PLI-FullNightHD/logos/pd1loi.png" position="30,967" size="320,40" alphatest="on"/>
-	</screen>
 
-	<screen name="PigLessTemplate">
-	<panel name="BasicTemplate"/>
-	<ePixmap pixmap="PLI-FullNightHD/logos/pd1loi.png" position="30,967" size="320,40" alphatest="on"/>
-	</screen>
 	<screen name="TextTemplate">
 		<widget name="text" position="30,528" size="720,481" backgroundColor="secondBG" transparent="1" zPosition="1" font="Regular;30"/>
 	</screen>
@@ -77,6 +69,18 @@
 		<panel name="BasicTemplate"/>
 		<ePixmap pixmap="../logo/logo-white.png" position="30,967" size="283,51" scale="1" zPosition="1" alphatest="blend"/>
 	</screen>
+	<screen name="PigTemplate">
+    <panel name="SelectionTemplate" />
+    <ePixmap pixmap="PLi-FullNightHD/logos/pli.png" position="30,967" size="320,40" alphatest="on" />
+  </screen>
+  <screen name="PigLessTemplate">
+    <panel name="BasicTemplate" />
+    <ePixmap pixmap="PLi-FullNightHD/logos/pli.png" position="30,967" size="320,40" alphatest="on" />
+  </screen>
+    <!--daimon-->    
+    <screen name="slLogos">
+        <ePixmap pixmap="PLi-FullNightHD/logos/pli1.png" position="365,855" size="150,148" alphatest="on" />
+	</screen> 
 
 	<screen name="MenuTemplate">
 		<panel name="PigTemplate"/>
@@ -113,10 +117,7 @@
 		</widget>
 		<ePixmap objectTypes="key_green,Button,Label" pixmap="buttons/green.png" position="628,1032" size="34,34" zPosition="1" alphatest="blend"/>
 	</screen>
-     <!--daimon-->    
-    <screen name="slLogos">
-        <ePixmap pixmap="PLi-FullNightHD/logos/sllogo.png" position="365,855" size="150,148" alphatest="on" />
-	</screen> 
+
 	<screen name="ButtonGraphicYellow">
 		<widget objectTypes="key_yellow,StaticText" source="key_yellow" render="Pixmap" pixmap="buttons/yellow.png" position="1064,1032" size="34,34" zPosition="1" alphatest="blend">
 			<convert type="ConditionalShowHide"/>
